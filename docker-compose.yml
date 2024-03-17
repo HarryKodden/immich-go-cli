@@ -1,0 +1,8 @@
+version: "2.1"
+
+services:
+
+  code-server:
+    build:
+      context: .
+    image: harrykodden/immich-go-gli:latest
